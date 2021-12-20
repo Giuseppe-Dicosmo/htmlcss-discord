@@ -18,7 +18,7 @@ a{
 
 /* nav */
 header{
-    background: url("../img/jumbo.png") no-repeat center ;
+    background: url("../img/jumbo.png") no-repeat;
     background-size: cover;
 }
 
@@ -29,7 +29,6 @@ nav{
 
 img{
     display: inline;
-    vertical-align: -13px;
 }
 
 nav ul{
@@ -39,7 +38,6 @@ nav ul{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 nav ul li{
@@ -53,33 +51,35 @@ nav ul li a{
 }
 
 nav > a{
-    display: inline-block;
+    display: inline;
     border-radius: 20px;
     background-color: white;
     color: black;
     padding: 5px 15px;
     float: right;
 }
-/* header */
-div.container-center{
-    position: relative;
-}
-
-div.container-center > div{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-div.container-center div h1, p{
+/* jumbotron */
+div.jumbotron > div{
     text-align: center;
-    color: red;
+    padding: 100px 0;
+    width: 550px;
+    margin: 0 auto;
+    color: white;
 }
 
-div.container-center div a{
-    border-radius: 20px;
-    background-color: white;
-    padding: 8px 17px;
-    color: black;
+div.jumbotron > div > p{
+    margin: 30px 0 20px 0;
 }
+
+div.jumbotron > div > a{
+    border-radius: 20px;
+    color: white;
+    background-color: #282b2e;
+    padding: 8px 17px;
+}
+
+div.jumbotron > div > a:hover{
+    background-color: white;
+    color: #282b2e;
+}
+
