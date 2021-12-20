@@ -74,7 +74,7 @@ div.container-center > div{
 
 div.container-center div h1, p{
     text-align: center;
-    color: white;
+    color: red;
 }
 
 div.container-center div a{
