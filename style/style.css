@@ -6,7 +6,7 @@
 
 /* ------------ */
 .container-center{
-    max-width: 1180px;
+    max-width: 950px;
     margin: 0 auto;
     position: relative;
 }
@@ -14,6 +14,11 @@
 a{
     text-decoration: none;
     text-transform: capitalize;
+}
+
+html{
+    font-family: 'Candal', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* nav */
@@ -59,6 +64,9 @@ nav > a{
     float: right;
 }
 /* jumbotron */
+div.jumbotron h1{
+    font-size: 40px;
+}
 div.jumbotron > div{
     text-align: center;
     padding: 100px 0;
@@ -67,19 +75,149 @@ div.jumbotron > div{
     color: white;
 }
 
-div.jumbotron > div > p{
+div.jumbotron  div  p{
     margin: 30px 0 20px 0;
 }
 
-div.jumbotron > div > a{
+div.jumbotron  div  a{
     border-radius: 20px;
     color: white;
     background-color: #282b2e;
     padding: 8px 17px;
 }
 
-div.jumbotron > div > a:hover{
+div.jumbotron  div  a:hover{
     background-color: white;
     color: #282b2e;
 }
+
+/* article */
+article  div.container-center section{
+    margin: 150px 0;
+}
+
+main{
+    position: relative;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+article  div.container-center section img{
+    width: 55%;
+    float: left;
+}
+
+div.content{
+    width: 30%;
+    float: right;
+    margin-top: 20px;
+}
+
+article h2{
+    font-size: 40px;
+}
+
+article p{
+    margin-top: 20px;
+    font-size: 17px;
+}
+
+div.exchange{
+    float: left;
+}
+
+#exchange{
+    float: right;
+}
+
+main.bottom{
+    text-align: center;
+}
+
+main.bottom div{
+    width: 550px;
+    margin: 0 auto;
+    background: url("../img/stars.svg") no-repeat left top;
+    background-size: contain;
+    margin-bottom: 30px;
+    padding: 1px;
+    width: 270px;
+    margin-bottom: 50px;
+
+}
+
+main.bottom a{
+    background-color: #5764f0;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+
+main.bottom a:hover{
+    background-color: #8da0dc;
+}
+
+/* footer */
+footer{
+    background-color: #282b2e;
+}
+
+footer.top{
+    margin-top: 100px;
+    padding: 40px 0;
+}
+
+div.info{
+    color: white;
+    width: 20%;
+    float: left;
+    padding-right: 60px;
+    line-height: 30px;
+}
+
+div.info .lingua{
+    margin: 10px 0 5px 0;
+}
+
+div.info h3, strong{
+    color: #7388d5;
+}
+
+div.info img{
+    width: 20px;
+}
+
+i{
+    margin-right: 10px;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+hr{
+    border: 1px solid #424d69;
+    background-color: #424d69;
+}
+
+footer.bottom .container-center div{
+    padding: 20px 0;
+}
+
+footer div.bottom div a{
+    background-color: #5764f0;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 25px;
+    float: right;
+}
+
+
+
+
+
 
